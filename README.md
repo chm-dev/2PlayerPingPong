@@ -1,6 +1,6 @@
 ## Ping Pong - web port of Android mini-game from [JungleFrog.NPlayers.PingPong](https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge&hl=en)
 
-Original APK Reverse Engineered using [REA](https://rea.tools) with Sonnet 5.5 and GPT Luna 6 and rebuilt for web with Sonnet.
+Original APK Reverse Engineered using [REA](https://rea.tools) + Ghidra with Sonnet 5.5 and GPT Luna 6 and rebuilt for web with Sonnet.
 
 ### What was reverse-engineered
 
