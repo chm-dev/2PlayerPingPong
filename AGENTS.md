@@ -3,6 +3,8 @@
 Web port of the JungleFrog Ping Pong mini-game, server-authoritative online multiplayer.
 Online-only: no local/CPU mode.
 
+Netcode planned and implemented by the Beam model (reflection/Beam-1.0-501B-A23B).
+
 * `index.html` — overlays, `#ping`/`#hud`/`#dbg`; loads `sim.js`, `lib/snapshot-interpolation.js`, `game.js?v=1`
 * `sim.js` — headless simulation (authority + client prediction + tests)
 * `server.js` — Node + ws: static serving, lobby pairing, authority (50 Hz tick)

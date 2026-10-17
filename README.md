@@ -20,6 +20,8 @@ Original APK Reverse Engineered using [REA](https://rea.tools) + Ghidra with Son
 
 ### Online multiplayer
 
+Planned and implemented by the Beam model (reflection/Beam-1.0-501B-A23B).
+
 This build is online-only. Run `npm install && npm start`, then open `http://localhost:8080` in two windows/devices to pair. First to 7 wins; Play again restarts both. Player 2's view is rotated 180°.
 
 Netcode: server-authoritative. A shared headless `sim.js` runs the (tick-quantized Bézier) simulation on the server at 50 Hz and broadcasts snapshots (~25 Hz) plus authoritative events (`hit`, `bounce`, `point`, `win`). Clients predict their own racket and the ball, reconcile against snapshots with input replay, and interpolate the opponent's racket. Input is sequenced (`seq`/`ack`) with a jitter buffer and clock-offset correction. No peer-to-peer traffic.
