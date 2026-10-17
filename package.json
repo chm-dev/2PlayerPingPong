@@ -1,0 +1,13 @@
+{
+  "name": "2playerpingpong",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web port of the JungleFrog Ping Pong mini-game, server-authoritative online multiplayer",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
